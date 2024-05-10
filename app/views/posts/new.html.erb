@@ -1,6 +1,18 @@
 <h1>New Post</h1>
 
 <form action="/posts" method="post">
+  <p>
+    <label for="author">Author</label>
+    <input type="text" name="author" id="author">
+  </p>
+  <p>
+    <label for="body">Your post</label>
+    <input type="text" name="body" id="body">
+  </p>
+  <p>
+    <label for="image">Image URL</label>
+    <input type="text" name="image" id="image">
+  </p>
   <%# add form fields %>
   <button>Submit</button>
 </form>
